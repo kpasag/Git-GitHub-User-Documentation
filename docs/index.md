@@ -1,13 +1,24 @@
-# Welcome to MkDocs
+# Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The purpose of this document is to help people learn [Git](https://git-scm.com/) and [GitHub](https://github.com/) for COMP 1800 and future projects
 
-## Commands
+## Is This Guide For You?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+
+
+
+## Prerequisite Knowledge
+
+## Software Requirements
+
+## Procedures Overview
+
+## Admonitions
+
+!!! success "Success"
+    nice
+!!! danger "Danger"
+
 
 ## Project layout
 
@@ -16,4 +27,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-Test :middle_finger:

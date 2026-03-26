@@ -9,6 +9,12 @@ The purpose of this document is to help people learn [Git](https://git-scm.com/)
 
 ## Prerequisite Knowledge
 
+- Have Git installed
+- A GitHub account
+- Visual Studio Code 
+- Knowledge of VsCode’s terminal
+
+
 ## Software Requirements
 
 ## Procedures Overview
@@ -16,9 +22,13 @@ The purpose of this document is to help people learn [Git](https://git-scm.com/)
 ## Admonitions
 
 !!! success "Success"
-    nice
-!!! danger "Danger"
+    This is what it looks like if you did something correct.
 
+!!! info "Notes"
+    This is what we will use to indicate if we may have any side notes that may be useful.
+
+!!! danger "Danger"
+    This is what we will use to let you know NOT to do something.
 
 ## Project layout
 

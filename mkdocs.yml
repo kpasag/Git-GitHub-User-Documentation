@@ -10,7 +10,7 @@ theme:
   favicon: assets/github.png
   features:
     - navigation.footer
-  palette: 
+  palette:
     # Dark Mode
     - scheme: slate
       toggle:
@@ -50,5 +50,7 @@ extra:
       link: https://www.linkedin.com/in/kyle-pasag/
     - icon: material/web
       link: https://www.kylepasag.dev
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/cedrikmelendez/
 
 copyright: Copright &copy; 2026 Kyle Pasag and Cedrik Melendez

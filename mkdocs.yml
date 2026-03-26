@@ -1,0 +1,24 @@
+site_name: Git/GitHub User Documentatio
+site_url: https://kylepasag.dev #placeholder
+theme:
+  name: material
+  font:
+    text: Inter
+    code: Roboto Mono
+  palette: 
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: indigo
+      accent: deep orange
+

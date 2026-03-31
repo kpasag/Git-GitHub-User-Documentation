@@ -1,21 +1,29 @@
 # Introduction
+The purpose of this document is to help people learn [**Git**](https://git-scm.com/) and [**GitHub**](https://github.com/) for COMP 1800 and future projects
 
-The purpose of this document is to help people learn [Git](https://git-scm.com/) and [GitHub](https://github.com/) for COMP 1800 and future projects
+> :simple-git: [**Git**](https://git-scm.com/) is an open-source version control software that lets you keep track of changes you have made in source code or other files during development.
+> 
+> :simple-github: [**GitHub**](https://github.com/) is a cloud service platform that acts as a remote storage and hosting service for git to allow for multiple people to collaborate on projects.
 
 ## Is This Guide For You?
 
+This guide is for beginner-intermediate developers wanting to learn Git/GitHub in a Windows environment. The guide will teach you the common ways to use Git/GitHub and will provide a solid foundation for your future projects and collaboration with other people.
 
 
 
-## Prerequisite Knowledge
 
-- Have Git installed
+## Prerequisites
+To follow these instructions, you will need:
+
+- A computer with Windows 11 Operating System
 - A GitHub account
-- Visual Studio Code 
 - Knowledge of VsCode’s terminal
 
-
 ## Software Requirements
+Before proceeding, ensure you have the following installed:
+
+- Git version 2.51 or later installed
+- Visual Studio Code version 1.112 or later
 
 ## Procedures Overview
 

@@ -1,4 +1,4 @@
-site_name: Git/GitHub User Documentatio
+site_name: Git/GitHub User Documentation
 site_url: https://kylepasag.dev #placeholder
 theme:
   name: material
@@ -46,11 +46,8 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: material/linkedin
-      link: https://www.linkedin.com/in/kyle-pasag/
-    - icon: material/web
-      link: https://www.kylepasag.dev
-    - icon: material/linkedin
-      link: https://www.linkedin.com/in/cedrikmelendez/
+    - icon: simple/github
+      link: https://github.com/kpasag/Git-GitHub-User-Documentation
+      
 
 copyright: Copright &copy; 2026 Kyle Pasag and Cedrik Melendez

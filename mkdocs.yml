@@ -1,5 +1,5 @@
 site_name: Git/GitHub User Documentation
-site_url: https://kylepasag.dev #placeholder
+site_url: https://kpasag.github.io/Git-GitHub-User-Documentation/
 theme:
   name: material
   font:
@@ -9,7 +9,10 @@ theme:
     logo: simple/github
   favicon: assets/github.png
   features:
+    - navigation.sections
     - navigation.footer
+    - toc.integrate
+
   palette:
     # Dark Mode
     - scheme: slate

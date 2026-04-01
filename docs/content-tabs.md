@@ -6,7 +6,7 @@
     text
 
 === "How to get a girl"
-    0. For cedrik
+    0. For no one
     1. Don't be a bum
     2. Get your money up
     3. Get into co-op

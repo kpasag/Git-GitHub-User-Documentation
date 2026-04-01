@@ -42,9 +42,9 @@ Now that you have the repository URL copied, open VS Code and navigate to the fo
 
 For example, to navigate to your Desktop:
 
-```bash
-cd Desktop
-```
+
+> cd Desktop
+
 
 ![Screenshot of VS Code with the integrated terminal open](images/task1-vscode-terminal.png "VS Code integrated terminal"){: alt="Visual Studio Code window with the integrated terminal panel open at the bottom"}
 
@@ -61,9 +61,9 @@ With your terminal open and in the right directory, you can now clone the reposi
 
 1. **Type** the following command, replacing the URL with the one you copied from GitHub:
 
-    ```bash
-    git clone https://github.com/username/repository-name.git
-    ```
+    
+> git clone https://github.com/username/repository-name.git
+
 
 2. **Press** **Enter** and wait for the cloning process to complete.
 
@@ -99,15 +99,15 @@ Now that the repository is on your machine, open it in VS Code.
 
 1. **Navigate** into the newly created folder in the terminal:
 
-    ```bash
-    cd repository-name
-    ```
+
+> cd repository-name
+  
 
 2. **Run** the following command to open the project in VS Code:
 
-    ```bash
-    code .
-    ```
+
+> code .
+
 
 This will open a new VS Code window with all the project files visible in the **Explorer** panel on the left.
 
@@ -126,9 +126,9 @@ To confirm everything is set up correctly, run the following commands in the ter
 
 1. **Run** `git status` to check the state of the repository:
 
-    ```bash
-    git status
-    ```
+
+> git status
+
 
     You should see output like:
 
@@ -141,9 +141,9 @@ To confirm everything is set up correctly, run the following commands in the ter
 
 2. **Run** `git remote -v` to verify the remote connection:
 
-    ```bash
-    git remote -v
-    ```
+
+> git remote -v
+
 
     This should display the GitHub URL you cloned from:
 

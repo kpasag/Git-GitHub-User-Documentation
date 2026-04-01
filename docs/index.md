@@ -14,10 +14,10 @@ This guide is for beginner to intermediate developers wanting to learn Git and G
 
 By the end of this guide, you will be able to:
 
-1. Clone an existing repository from GitHub to your local machine
-2. Commit and push changes to a remote repository
-3. Create branches, work on them, and merge them back into the main branch
-4. Resolve merge conflicts when they occur
+- **[Cloning a Repository](cloning.md)** - Download an existing GitHub repository to your local machine.
+- **[Committing and Pushing Changes](committing-and-pushing.md)** - Save your work locally and upload it to GitHub.
+- **[Branching and Merging](branching-and-merging.md)** - Work on features in isolation and combine them back into the main codebase.
+- **[Resolving Merge Conflicts](resolving-merge-conflicts.md)** - Handle situations where two branches edit the same lines of code.
 
 ## Prerequisites
 
@@ -37,14 +37,6 @@ Before proceeding, ensure you have the following installed:
 > Although the screenshots provided will be from VS Code, most of the instructions can be followed using any terminal application.
 > Alternatives such as [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701), [Git Bash](https://gitforwindows.org/), and [PowerShell](https://learn.microsoft.com/en-us/powershell/) are also viable options.
 
-## Procedures Overview
-
-The main sections of the documentation are summarized below:
-
-- **[Cloning a Repository](task1.md)** - Download an existing GitHub repository to your local machine.
-- **[Committing and Pushing Changes](task2.md)** - Save your work locally and upload it to GitHub.
-- **[Branching and Merging](task3.md)** - Work on features in isolation and combine them back into the main codebase.
-- **[Resolving Merge Conflicts](task4.md)** - Handle situations where two branches edit the same lines of code.
 
 ## Typographical Conventions
 

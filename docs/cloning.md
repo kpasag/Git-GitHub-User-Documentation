@@ -27,8 +27,8 @@ Before cloning, you need to get the URL of the repository from GitHub.
 
 *Figure 1: The GitHub Code button with the HTTPS URL ready to copy.*
 
-!!! info "HTTPS vs SSH"
-    You will notice there are two options: **HTTPS** and **SSH**. For this guide, we will use HTTPS because it is the simplest to set up. SSH requires generating and configuring SSH keys, which is a more advanced topic.
+!!! info "HTTPS vs SSH vs GitHub CLI"
+    You will notice there are three options: **HTTPS**, **SSH**, and **GitHub CLI**. For this guide, we will use HTTPS because it is the simplest to set up. SSH requires generating and configuring SSH keys, while GitHub CLI requires installing GitHub's command-line tool, both are a more advanced topic.
 
 ---
 

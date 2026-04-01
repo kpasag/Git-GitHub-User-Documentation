@@ -20,8 +20,9 @@ Before committing, it is good practice to see what has changed in your project.
 1. **Open** the terminal in VS Code (`` Ctrl + ` ``).
 2. **Run** the following command:
 
->git status
-
+    ```bash
+    git status
+    ```
 
 You should see output showing your modified, added, or deleted files:
 
@@ -55,22 +56,23 @@ Before Git can commit your changes, you need to **stage** them. Staging tells Gi
 
 1. **Run** the following command to stage a specific file:
 
-
-> git add index.html
+    ```bash
+    git add index.html
+    ```
 
 2. **Run** the following to stage multiple specific files:
 
-    
-> git add index.html about.html
-    
+    ```bash
+    git add index.html about.html
+    ```
 
 ### Staging All Changes
 
 1. **Run** the following command to stage all modified and untracked files at once:
 
-    
-> git add .
-
+    ```bash
+    git add .
+    ```
 
 !!! danger "Be Careful with `git add .`"
     Using `git add .` stages **everything** in the current directory, including files you might not want to commit (like temporary files, logs, or configuration files with sensitive data). Always run `git status` before and after staging to make sure you are only committing what you intend to.
@@ -79,9 +81,9 @@ After staging, verify your staged files:
 
 1. **Run** `git status` again:
 
-
-> git status
-
+    ```bash
+    git status
+    ```
 
 You should now see your files listed under **"Changes to be committed"**:
 
@@ -109,8 +111,9 @@ Now that your changes are staged, you can create a **commit**. A commit is a sna
 
 1. **Run** the following command:
 
-> git commit -m "Add about page and update index"
-
+    ```bash
+    git commit -m "Add about page and update index"
+    ```
 
 You should see output like:
 
@@ -150,15 +153,15 @@ Your commit is currently saved **locally** on your machine. To upload it to GitH
 
 1. **Run** the following command:
 
+    ```bash
+    git push
+    ```
 
-> git push
-  
+    If this is your first time pushing, Git may ask you to set the upstream branch:
 
-If this is your first time pushing, Git may ask you to set the upstream branch:
-
-  
-> git push -u origin main
-    
+    ```bash
+    git push -u origin main
+    ```
 
 You should see output similar to:
 
@@ -219,4 +222,4 @@ In this task, you learned how to:
 - Push your commits to GitHub using `git push`
 - Verify your changes on GitHub
 
-This is the workflow you will be using every time you work on a project. In the next task, you will learn how to create branches and merge them, which lets you work on features without affecting the main codebase.
+This is the core workflow you will use every time you work on a project. In the next task, you will learn how to create branches and merge them, which lets you work on features without affecting the main codebase.

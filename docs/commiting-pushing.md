@@ -219,4 +219,4 @@ In this task, you learned how to:
 - Push your commits to GitHub using `git push`
 - Verify your changes on GitHub
 
-This is the core workflow you will use every time you work on a project. In the next task, you will learn how to create branches and merge them, which lets you work on features without affecting the main codebase.
+This is the workflow you will be using every time you work on a project. In the next task, you will learn how to create branches and merge them, which lets you work on features without affecting the main codebase.

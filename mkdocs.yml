@@ -1,3 +1,12 @@
+nav:
+  - Home: "index.md"
+  - Cloning a Repository: "cloning.md"
+  - Committing and Pushing Changes: "committing-and-pushing.md"
+  - Branching and Merging: "branching-and-merging.md"
+  - Resolving Merge Conflicts: "resolving-merge-conflicts.md"
+  - Troubleshooting: "troubleshooting.md"
+  - Glossary: "glossary.md"
+
 site_name: Git/GitHub User Documentation
 site_url: https://kpasag.github.io/Git-GitHub-User-Documentation/
 theme:

@@ -5,6 +5,7 @@
 ```mermaid
 sequenceDiagram
   autonumber
+
   Server->>Terminal: Send request
   loop Health
       Terminal->>Terminal: Check for health

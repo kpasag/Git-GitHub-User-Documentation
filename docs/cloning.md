@@ -23,7 +23,7 @@ Before cloning, you need to get the URL of the repository from GitHub.
 4. **Ensure** that **HTTPS** is selected (it should be by default).
 5. **Click** the copy icon next to the URL to copy it to your clipboard.
 
-![Screenshot of the GitHub Code button with the HTTPS URL highlighted](images/task1-github-code-button.png "GitHub Code button showing HTTPS clone URL"){: alt="GitHub repository page showing the green Code button expanded with the HTTPS URL and copy icon highlighted"}
+![GIF of the GitHub Code button with the HTTPS URL highlighted](assets/CopyingURL_of_REPO.gif "GitHub Code button showing HTTPS clone URL"){: alt="GitHub repository page showing the green Code button expanded with the HTTPS URL and copy icon highlighted" style="display: block; margin: 0 auto; width:700px" }
 
 *Figure 1: The GitHub Code button with the HTTPS URL ready to copy.*
 

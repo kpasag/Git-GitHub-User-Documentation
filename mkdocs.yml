@@ -29,7 +29,7 @@ theme:
         icon: material/weather-sunny
         name: Dark mode
       primary: indigo
-      accent: deep purple
+      accent: indigo
 
     # Light Mode
     - scheme: default
@@ -37,7 +37,7 @@ theme:
         icon: material/weather-night
         name: Light mode
       primary: indigo
-      accent: deep orange
+      accent: indigo
 
 markdown_extensions:
   - attr_list

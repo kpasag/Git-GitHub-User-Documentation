@@ -1,4 +1,4 @@
-# Task 2: Committing and Pushing Changes
+# Committing and Pushing Changes
 
 ## Overview
 
@@ -39,10 +39,6 @@ Untracked files:
         about.html
 ```
 
-![Screenshot of git status output showing modified and untracked files](images/task2-git-status.png "git status showing modified and untracked files"){: alt="Terminal window displaying git status output with one modified file and one untracked file listed"}
-
-*Figure 1: The output of `git status` showing changed files.*
-
 !!! info "Understanding the Output"
     **Modified** files are existing files you have changed. **Untracked** files are new files that Git has not seen before. **Deleted** files are files you have removed from the project. None of these changes are saved to Git yet. They are only on your local file system.
 
@@ -77,6 +73,18 @@ Before Git can commit your changes, you need to **stage** them. Staging tells Gi
 !!! danger "Be Careful with `git add .`"
     Using `git add .` stages **everything** in the current directory, including files you might not want to commit (like temporary files, logs, or configuration files with sensitive data). Always run `git status` before and after staging to make sure you are only committing what you intend to.
 
+!!! info "Using a `.gitignore` File"
+    To prevent unwanted files from being staged, you can create a `.gitignore` file in the root of your repository. This file tells Git which files and folders to ignore. For example:
+
+    ```
+    node_modules/
+    .env
+    *.log
+    .DS_Store
+    ```
+
+    Any file or folder listed in `.gitignore` will not show up in `git status` and will not be staged by `git add .`. You can learn more at [github.com/github/gitignore](https://github.com/github/gitignore) for common templates.
+
 After staging, verify your staged files:
 
 1. **Run** `git status` again:
@@ -95,10 +103,6 @@ Changes to be committed:
         modified:   index.html
         new file:   about.html
 ```
-
-![Screenshot of git status showing staged files](images/task2-staged-files.png "git status showing staged files ready to commit"){: alt="Terminal window displaying git status output with files listed under Changes to be committed"}
-
-*Figure 2: Staged files ready to be committed.*
 
 !!! success "Success"
     If your files appear under "Changes to be committed," they are staged and ready to be committed.
@@ -123,10 +127,6 @@ You should see output like:
  create mode 100644 about.html
 ```
 
-![Screenshot of terminal showing successful git commit output](images/task2-git-commit.png "Successful git commit output"){: alt="Terminal window displaying the output of a successful git commit command with file change summary"}
-
-*Figure 3: A successful commit with a descriptive message.*
-
 !!! info "Writing Good Commit Messages"
     A good commit message is short, descriptive, and written in the **imperative mood** (like giving a command). Think of it as completing the sentence: *"If applied, this commit will..."*
 
@@ -142,7 +142,7 @@ You should see output like:
     - `fixed things` - does not say what was fixed
     - `asdfgh` - not descriptive at all
 
-!!! danger "Don't Forget the `-m` Flag"
+!!! danger "Do Not Forget the `-m` Flag"
     If you run `git commit` without the `-m` flag, Git will open a text editor (usually Vim) for you to write your message. If this happens and you are not familiar with Vim, press `Esc`, type `:q!`, and press **Enter** to exit without saving. Then try again with the `-m` flag.
 
 ---
@@ -176,10 +176,6 @@ To https://github.com/username/repository-name.git
    c3d4e5f..a1b2c3d  main -> main
 ```
 
-![Screenshot of terminal showing successful git push output](images/task2-git-push.png "Successful git push output"){: alt="Terminal window displaying the output of a successful git push command uploading commits to GitHub"}
-
-*Figure 4: A successful push to GitHub.*
-
 !!! success "Success"
     If you see output like the above with no errors, your changes have been pushed to GitHub! You can verify by visiting your repository on GitHub and checking that your changes appear.
 
@@ -205,7 +201,7 @@ As a final check, confirm your changes appear on GitHub.
 
 ![Screenshot of GitHub showing the latest commit on the repository page](images/task2-github-verify.png "GitHub repository page showing the latest commit"){: alt="GitHub repository page with the latest commit message visible at the top of the file list"}
 
-*Figure 5: The latest commit visible on GitHub.*
+*Figure 1: The latest commit visible on GitHub.*
 
 !!! success "Success"
     If you can see your commit message and changes on GitHub, you have successfully committed and pushed your work!

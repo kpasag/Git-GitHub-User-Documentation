@@ -1,4 +1,4 @@
-# Task 4: Resolving Merge Conflicts
+# Resolving Merge Conflicts
 
 ## Overview
 
@@ -23,14 +23,14 @@ A merge conflict occurs when:
 2. Someone else (or you, on another branch) also edits **the same line** on `main`.
 3. When you try to merge your branch into `main`, Git finds two different versions of the same line and does not know which one to keep.
 
-!!! info "When Conflicts Don't Happen"
+!!! info "When Conflicts Do Not Happen"
     If two branches edit **different files**, or **different lines** in the same file, Git can merge them automatically without any conflict. Conflicts only happen when the exact same lines are changed in both branches.
 
 ---
 
 ## Creating a Conflict (For Practice)
 
-To practice resolving a conflict, let's intentionally create one.
+To practice resolving a conflict, we will intentionally create one.
 
 ### Making a Change on Main
 
@@ -105,10 +105,6 @@ CONFLICT (content): Merge conflict in index.html
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-![Screenshot of merge conflict message in terminal](images/task4-conflict-message.png "Merge conflict message in terminal"){: alt="Terminal window displaying the output of git merge showing a merge conflict in index.html"}
-
-*Figure 1: The merge conflict message in the terminal.*
-
 !!! success "Success"
     If you see the `CONFLICT` message, you have successfully triggered a merge conflict. This is expected, so do not panic!
 
@@ -132,7 +128,7 @@ You will see something like this:
 
 ![Screenshot of conflict markers in VS Code](images/task4-conflict-markers.png "Conflict markers shown in VS Code"){: alt="VS Code editor showing a file with conflict markers including the HEAD version, separator, and incoming branch version"}
 
-*Figure 2: Conflict markers in VS Code.*
+*Figure 1: Conflict markers in VS Code.*
 
 Here is what each marker means:
 
@@ -154,7 +150,7 @@ Everything between `<<<<<<< HEAD` and `=======` is what is currently on `main`. 
 
 ![Screenshot of VS Code conflict resolution buttons](images/task4-vscode-buttons.png "VS Code merge conflict resolution buttons"){: alt="VS Code editor showing the color-coded conflict highlighting with Accept Current Change, Accept Incoming Change, Accept Both Changes, and Compare Changes buttons"}
 
-*Figure 3: VS Code's built-in conflict resolution buttons.*
+*Figure 2: VS Code's built-in conflict resolution buttons.*
 
 ---
 
@@ -183,7 +179,7 @@ You have three options for resolving the conflict:
 
 ![Screenshot of resolved conflict in VS Code](images/task4-resolved-conflict.png "Resolved merge conflict in VS Code"){: alt="VS Code editor showing the file after the conflict has been resolved with conflict markers removed and final content in place"}
 
-*Figure 4: The file after resolving the conflict.*
+*Figure 3: The file after resolving the conflict.*
 
 !!! danger "Remove ALL Conflict Markers"
     If you choose to edit manually, make sure you delete **all** of the conflict markers. Leaving them in will break your code. Your file should look like a normal file with no `<<<<<<<`, `=======`, or `>>>>>>>` characters anywhere.
@@ -213,10 +209,6 @@ After resolving the conflict, you need to tell Git that the conflict is fixed.
     git push
     ```
 
-![Screenshot of terminal showing the completed merge commit and push](images/task4-merge-complete.png "Completed merge conflict resolution"){: alt="Terminal window showing git add, git commit, and git push commands completing a merge conflict resolution"}
-
-*Figure 5: Completing the merge after resolving the conflict.*
-
 !!! success "Success"
     If your push succeeds and the file looks correct on GitHub, you have successfully resolved a merge conflict!
 
@@ -233,7 +225,7 @@ As a final check, confirm your resolution appears correctly on GitHub.
 
 ![Screenshot of GitHub showing the merge commit](images/task4-github-resolved.png "GitHub repository showing the merge commit"){: alt="GitHub repository page with the merge conflict resolution commit visible in the commit history"}
 
-*Figure 6: The merge commit visible on GitHub.*
+*Figure 4: The merge commit visible on GitHub.*
 
 ---
 

@@ -1,4 +1,4 @@
-# Task 3: Branching and Merging
+# Branching and Merging
 
 ## Overview
 
@@ -35,10 +35,6 @@ You should see:
 Switched to a new branch 'feature/add-contact-page'
 ```
 
-![Screenshot of terminal showing branch creation](images/task3-create-branch.png "Creating a new branch with git checkout -b"){: alt="Terminal window displaying the output of git checkout -b showing a new branch was created and switched to"}
-
-*Figure 1: Creating and switching to a new branch.*
-
 !!! info "Branch Naming Conventions"
     Good branch names describe what you are working on. Common prefixes include:
 
@@ -66,10 +62,6 @@ You should see a list of branches with an asterisk (`*`) next to the active one:
   main
 * feature/add-contact-page
 ```
-
-![Screenshot of git branch output](images/task3-git-branch.png "git branch output showing the active branch"){: alt="Terminal window displaying git branch output with an asterisk next to the currently active feature branch"}
-
-*Figure 2: The branch list with the active branch highlighted.*
 
 !!! success "Success"
     If you see the asterisk next to your new branch name, you are on the correct branch and ready to start making changes.
@@ -103,10 +95,6 @@ Now you can work on your feature. Any changes you commit here will only exist on
     ```
 
 You can make multiple commits on your branch as you work. Each commit captures a step in your progress.
-
-![Screenshot of making a commit on the feature branch](images/task3-commit-on-branch.png "Committing changes on a feature branch"){: alt="Terminal window showing git add and git commit commands being run on a feature branch"}
-
-*Figure 3: Committing changes on the feature branch.*
 
 ---
 
@@ -143,11 +131,7 @@ Fast-forward
  1 file changed, 5 insertions(+), 5 deletions(-)
 ```
 
-![Screenshot of git pull output](images/task3-git-pull.png "Pulling latest changes with git pull"){: alt="Terminal window displaying the output of git pull showing the repository is up to date"}
-
-*Figure 4: Pulling the latest changes from the remote repository.*
-
-!!! danger "Don't Skip This Step"
+!!! danger "Do Not Skip This Step"
     If you skip pulling before merging, you risk creating **merge conflicts** (covered in Task 4). Always pull the latest changes from `main` before merging your feature branch.
 
 ---
@@ -178,10 +162,6 @@ Fast-forward
  create mode 100644 contact.html
 ```
 
-![Screenshot of git merge output](images/task3-merge-output.png "Merging a feature branch into main"){: alt="Terminal window displaying the output of git merge showing a successful fast-forward merge"}
-
-*Figure 5: A successful merge of the feature branch into main.*
-
 !!! success "Success"
     If the merge completes without errors, your feature branch changes are now part of `main`!
 
@@ -199,10 +179,6 @@ After merging locally, push the updated `main` branch to GitHub.
     ```bash
     git push
     ```
-
-![Screenshot of pushing the merged changes](images/task3-push-merged.png "Pushing merged changes to GitHub"){: alt="Terminal window displaying the output of git push after merging a feature branch"}
-
-*Figure 6: Pushing the merged changes to GitHub.*
 
 ---
 
@@ -231,7 +207,7 @@ Once your feature branch has been merged, you no longer need it. Cleaning up old
 !!! info "Why Delete Branches?"
     Over time, old branches pile up and make it harder to see what is actively being worked on. Deleting merged branches is a common housekeeping practice in professional development.
 
-!!! danger "Don't Use `-D` Unless You Mean It"
+!!! danger "Do Not Use `-D` Unless You Mean It"
     The uppercase `-D` flag (`git branch -D branch-name`) force-deletes a branch even if it has not been merged. Only use this if you are absolutely sure you want to discard the work on that branch.
 
 ---

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://kpasag.github.io/Git-GitHub-User-Documentation/</loc>
+         <lastmod>2026-04-02</lastmod>
+    </url>
+    <url>
+         <loc>https://kpasag.github.io/Git-GitHub-User-Documentation/branching-and-merging/</loc>
+         <lastmod>2026-04-02</lastmod>
+    </url>
+    <url>
+         <loc>https://kpasag.github.io/Git-GitHub-User-Documentation/cloning/</loc>
+         <lastmod>2026-04-02</lastmod>
+    </url>
+    <url>
+         <loc>https://kpasag.github.io/Git-GitHub-User-Documentation/committing-and-pushing/</loc>
+         <lastmod>2026-04-02</lastmod>
+    </url>
+    <url>
+         <loc>https://kpasag.github.io/Git-GitHub-User-Documentation/glossary/</loc>
+         <lastmod>2026-04-02</lastmod>
+    </url>
+    <url>
+         <loc>https://kpasag.github.io/Git-GitHub-User-Documentation/resolving-merge-conflicts/</loc>
+         <lastmod>2026-04-02</lastmod>
+    </url>
+    <url>
+         <loc>https://kpasag.github.io/Git-GitHub-User-Documentation/troubleshooting/</loc>
+         <lastmod>2026-04-02</lastmod>
+    </url>
+</urlset>

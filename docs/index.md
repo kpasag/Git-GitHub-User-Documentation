@@ -10,7 +10,7 @@ If you are interested in learning more about Git, please visit the [official Git
 
 ## Is This Guide For You?
 
-This guide is for beginner to intermediate developers wanting to learn Git and GitHub in a Windows environment. We will teach you the most common Git operations and provide a solid foundation for your future projects and collaboration with others.
+This guide is for beginner developers and CST students who can write code but have not used Git or GitHub before. We will walk you through the most common Git operations in a Windows environment and provide a solid foundation for your future projects and collaboration with others.
 
 By the end of this guide, you will be able to:
 
@@ -25,7 +25,7 @@ To follow these instructions, you will need:
 
 - A computer with **Windows 11** operating system
 - A [**GitHub account**](https://github.com/join)
-- Basic knowledge of using the [**VS Code terminal**](https://code.visualstudio.com/docs/terminal/basics)
+- Ability to open the [**VS Code terminal**](https://code.visualstudio.com/docs/terminal/basics) and type commands such as `cd` to navigate between folders
 
 ## Software Requirements
 
@@ -60,7 +60,9 @@ This guide uses the following formatting conventions throughout:
 
 4. Instructions that require you to run a command in the terminal will be formatted like:
 
-    > run some command in the terminal
+    ```bash
+    run some command in the terminal
+    ```
 
 ## Admonitions
 

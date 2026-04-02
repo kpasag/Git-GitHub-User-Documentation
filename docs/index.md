@@ -12,12 +12,12 @@ If you are interested in learning more about Git, please visit the [official Git
 
 This guide is for beginner developers and CST students who can write code but have not used Git or GitHub before. We will walk you through the most common Git operations in a Windows environment and provide a solid foundation for your future projects and collaboration with others.
 
-By the end of this guide, you will be able to:
+By the end of this guide, you will know how to:
 
-- **[Cloning a Repository](cloning.md)** - Download an existing GitHub repository to your local machine.
-- **[Committing and Pushing Changes](committing-and-pushing.md)** - Save your work locally and upload it to GitHub.
-- **[Branching and Merging](branching-and-merging.md)** - Work on features in isolation and combine them back into the main codebase.
-- **[Resolving Merge Conflicts](resolving-merge-conflicts.md)** - Handle situations where two branches edit the same lines of code.
+- **[Clone a Repository](cloning.md)** - Download an existing GitHub repository to your local machine.
+- **[Committ and Push Changes](committing-and-pushing.md)** - Save your work locally and upload it to GitHub.
+- **[Branch and Merge](branching-and-merging.md)** - Work on features in isolation and combine them back into the main codebase.
+- **[Resolve Merge Conflicts](resolving-merge-conflicts.md)** - Handle situations where two branches edit the same lines of code.
 
 ## Prerequisites
 
@@ -60,7 +60,7 @@ This guide uses the following formatting conventions throughout:
 
 4. Instructions that require you to run a command in the terminal will be formatted like:
 
-    ```bash
+    ```
     run some command in the terminal
     ```
 

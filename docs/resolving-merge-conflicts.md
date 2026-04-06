@@ -118,17 +118,10 @@ When a conflict occurs, Git inserts special markers into the conflicted file to 
 
 You will see something like this:
 
-```
-<<<<<<< HEAD
-<h1>Welcome to My Website</h1>
-=======
-<h1>Welcome to Our Amazing Website</h1>
->>>>>>> feature/update-heading
-```
 
-![Screenshot of conflict markers in VS Code](images/task4-conflict-markers.png "Conflict markers shown in VS Code"){: alt="VS Code editor showing a file with conflict markers including the HEAD version, separator, and incoming branch version"}
+![Screenshot of conflict markers in VS Code](assets/conflict-markers.png "Conflict markers shown in VS Code"){: alt="VS Code editor showing a file with conflict markers including the HEAD version, separator, and incoming branch version" style="display: block; margin: 0 auto; width:800px"}
 
-*Figure 1: Conflict markers in VS Code.*
+<!-- *Figure 1: Conflict markers in VS Code.* -->
 
 Here is what each marker means:
 
@@ -141,16 +134,13 @@ Here is what each marker means:
 Everything between `<<<<<<< HEAD` and `=======` is what is currently on `main`. Everything between `=======` and `>>>>>>> feature/update-heading` is what is on the feature branch.
 
 !!! info "VS Code Highlighting"
-    VS Code will highlight conflicts with color-coded blocks and show buttons above the conflict:
+    VS Code will highlight the conflicting sections and display clickable options above the conflict:
 
     - **Accept Current Change** - keeps the `main` version
     - **Accept Incoming Change** - keeps the feature branch version
     - **Accept Both Changes** - keeps both versions, one after the other
     - **Compare Changes** - opens a side-by-side diff view
 
-![Screenshot of VS Code conflict resolution buttons](images/task4-vscode-buttons.png "VS Code merge conflict resolution buttons"){: alt="VS Code editor showing the color-coded conflict highlighting with Accept Current Change, Accept Incoming Change, Accept Both Changes, and Compare Changes buttons"}
-
-*Figure 2: VS Code's built-in conflict resolution buttons.*
 
 ---
 
@@ -161,25 +151,26 @@ You have three options for resolving the conflict:
 ### Option A: Accept One Version
 
 1. **Click** **Accept Current Change** or **Accept Incoming Change** in VS Code to keep one version and discard the other.
+2. **Save** the file by pressing `Ctrl + S`.
 
 ### Option B: Accept Both
 
 1. **Click** **Accept Both Changes** to keep both lines. This is useful when both changes are needed.
+2. **Save** the file by pressing `Ctrl + S`.
 
 ### Option C: Edit Manually
 
 1. **Delete** the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) from the file.
 2. **Write** the final version yourself. For example:
+```html
+    <h1>Welcome to Our Amazing Website</h1>
+```
 
-    ```html
-    <h1>Welcome to Our Website</h1>
-    ```
+3. **Save** the file by pressing `Ctrl + S`.
 
-3. **Save** the file.
+![Screenshot of resolved conflict in VS Code](assets/resolved-conflict.png "Resolved merge conflict in VS Code"){: alt="VS Code editor showing the file after the conflict has been resolved with conflict markers removed and final content in place" style="display: block; margin: 0 auto; width:600px"}
 
-![Screenshot of resolved conflict in VS Code](images/task4-resolved-conflict.png "Resolved merge conflict in VS Code"){: alt="VS Code editor showing the file after the conflict has been resolved with conflict markers removed and final content in place"}
-
-*Figure 3: The file after resolving the conflict.*
+<!-- *Figure 2: The file after resolving the conflict.* -->
 
 !!! danger "Remove ALL Conflict Markers"
     If you choose to edit manually, make sure you delete **all** of the conflict markers. Leaving them in will break your code. Your file should look like a normal file with no `<<<<<<<`, `=======`, or `>>>>>>>` characters anywhere.
@@ -220,12 +211,16 @@ As a final check, confirm your resolution appears correctly on GitHub.
 
 1. **Open** your repository on [github.com](https://github.com).
 2. **Check** that the merge commit appears in the commit history.
+
+![Screenshot of GitHub showing the merge commit](assets/github-resolved.png "GitHub repository showing the merge commit"){: alt="GitHub repository page with the merge conflict resolution commit visible in the commit history" style="display: block; margin: 0 auto; width:1000px"}
+
 3. **Click** on the resolved file to confirm it contains your final version.
 4. **Verify** that no conflict markers are left in any files.
 
-![Screenshot of GitHub showing the merge commit](images/task4-github-resolved.png "GitHub repository showing the merge commit"){: alt="GitHub repository page with the merge conflict resolution commit visible in the commit history"}
+![Screenshot of the resolved file on GitHub showing clean code with no conflict markers](assets/github-clean-file.png "Resolved file on GitHub with no conflict markers"){: alt="GitHub file view showing the resolved index.html with clean code and no conflict markers" style="display: block; margin: 0 auto; width:700px"}
 
-*Figure 4: The merge commit visible on GitHub.*
+
+<!-- *Figure 3: The merge commit visible on GitHub.* -->
 
 ---
 

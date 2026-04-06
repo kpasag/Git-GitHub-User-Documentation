@@ -15,7 +15,7 @@ This guide is for beginner developers and CST students who can write code but ha
 By the end of this guide, you will know how to:
 
 - **[Clone a Repository](cloning.md)** - Download an existing GitHub repository to your local machine.
-- **[Committ and Push Changes](committing-and-pushing.md)** - Save your work locally and upload it to GitHub.
+- **[Commit and Push Changes](committing-and-pushing.md)** - Save your work locally and upload it to GitHub.
 - **[Branch and Merge](branching-and-merging.md)** - Work on features in isolation and combine them back into the main codebase.
 - **[Resolve Merge Conflicts](resolving-merge-conflicts.md)** - Handle situations where two branches edit the same lines of code.
 

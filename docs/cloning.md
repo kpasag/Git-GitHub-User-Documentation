@@ -29,7 +29,6 @@ Before cloning, you need to get the URL of the repository from GitHub.
 
 ![GIF of the GitHub Code button with the HTTPS URL highlighted](assets/CopyingURL_of_REPO.gif "GitHub Code button showing HTTPS clone URL"){: alt="GitHub repository page showing the green Code button expanded with the HTTPS URL and copy icon highlighted" style="display: block; margin: 0 auto; width:700px" }
 
-*Figure 1: The GitHub Code button with the HTTPS URL ready to copy.*
 
 !!! info "HTTPS vs SSH vs GitHub CLI"
     You will notice there are three options: **HTTPS**, **SSH**, and **GitHub CLI**. For this guide, we will use HTTPS because it is the simplest to set up. SSH requires generating and configuring SSH keys, while GitHub CLI requires installing GitHub's command-line tool, both are a more advanced topic.
@@ -43,6 +42,8 @@ Now that you have the repository URL copied, open VS Code and navigate to the fo
 1. **Open** Visual Studio Code.
 2. **Open** the integrated terminal by pressing `` Ctrl + ` `` or navigating to **Terminal > New Terminal** in the menu bar.
 3. **Navigate** to the folder where you want to store the cloned project using the `cd` command.
+
+![GIF of Opening VS Code terminal](assets/OpeningVSCodeTerminal.gif "Opening VS Code Terminal"){: alt="Opening VS Code Terminal" style="display: block; margin: 0 auto; width:700px" }
 
 For example, to navigate to your Desktop:
 
@@ -109,9 +110,8 @@ Now that the repository is on your machine, open it in VS Code.
 
 This will open a new VS Code window with all the project files visible in the **Explorer** panel on the left.
 
-![Screenshot of VS Code with the cloned project open in the Explorer panel](images/task1-vscode-project-open.png "Cloned project open in VS Code Explorer panel"){: alt="Visual Studio Code window showing the cloned project files and folders in the Explorer sidebar"}
+![Screenshot of VS Code with the cloned project open in the Explorer panel](assets/vscode-project-open.png "Cloned project open in VS Code Explorer panel"){: alt="Visual Studio Code window showing the cloned project files and folders in the Explorer sidebar" style="display: block; margin: 0 auto; width:900px"}
 
-*Figure 2: The cloned project open in VS Code.*
 
 !!! info "Alternative Method"
     You can also open the folder manually by going to **File > Open Folder** in VS Code and selecting the cloned repository folder.

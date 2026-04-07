@@ -69,7 +69,7 @@ This guide uses the following formatting conventions throughout:
 Throughout the documentation, we will use message blocks to alert you to relevant information. Each possible message block, from most important to least important:
 
 !!! danger "Danger"
-    This is what we will use to let you know NOT to do something.
+    This is what we will use to warn you about actions that may cause errors, data loss, or unexpected behavior.
 
 !!! info "Notes"
     This is what we will use to indicate if we may have any side notes that may be useful.

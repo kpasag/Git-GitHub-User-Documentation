@@ -49,9 +49,9 @@ code block example
 
 We also added images and GIFs to help provide a more clearer step-by-step instruction.
 
-<center>
-  <img src="docs/assets/CopyingURL_of_REPO.gif" width="700" alt="GitHub Code button showing HTTPS clone URL" />
-</center>
+<div align="center">
+  <img src="docs/assets/CopyingURL_of_REPO.gif" width="750" alt="GitHub Code button showing HTTPS clone URL" />
+</div>
 
 <!-- ![GIF of the GitHub Code button with the HTTPS URL highlighted](docs/assets/CopyingURL_of_REPO.gif "GitHub Code button showing HTTPS clone URL") -->
 

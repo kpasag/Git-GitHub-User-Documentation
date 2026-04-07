@@ -114,7 +114,7 @@ Before merging your branch into `main`, it is important to make sure your local 
     git pull
     ```
 
-You should see output like:
+You should see output similar to:
 
 ```
 Already up to date.
@@ -132,7 +132,7 @@ Fast-forward
 ```
 
 !!! danger "Do Not Skip This Step"
-    If you skip pulling before merging, you risk creating **merge conflicts** (covered in Task 4). Always pull the latest changes from `main` before merging your feature branch.
+    If you skip pulling before merging, you risk creating **merge conflicts** (covered in  [Task 4](resolving-merge-conflicts.md)). Always pull the latest changes from `main` before merging your feature branch.
 
 ---
 
@@ -207,8 +207,8 @@ Once your feature branch has been merged, you no longer need it. Cleaning up old
 !!! info "Why Delete Branches?"
     Over time, old branches pile up and make it harder to see what is actively being worked on. Deleting merged branches is a common housekeeping practice in professional development.
 
-!!! danger "Do Not Use `-D` Unless You Mean It"
-    The uppercase `-D` flag (`git branch -D branch-name`) force-deletes a branch even if it has not been merged. Only use this if you are absolutely sure you want to discard the work on that branch.
+!!! danger "Do Not Use `-D` Unless You Absolutely Need Too"
+    The uppercase `-D` flag (`git branch -D branch-name`) force-deletes a branch even if it has not been merged. Only use this if you are completely sure you want to discard the work done on that branch.
 
 ---
 

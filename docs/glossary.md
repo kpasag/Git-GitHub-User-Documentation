@@ -1,13 +1,16 @@
 # Glossary
 | Term           | Definition                                                                                                                                                                                        |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Branch**     | A separate line of development that lets you work on changes without affecting the main codebase. Once your work is ready, you can merge it back in.                                              |
 | **Clone**      | Downloads a copy of a remote repository onto your local machine, giving you the full project history so you can start making changes right away.                                                  |
 | **Commit**     | A saved snapshot of your changes at a point in time, with a message describing what changed.                                                                                                      |
 | **Conflict**   | Occurs when two branches change the same part of a file and Git can't automatically decide which version to keep. You'll need to manually resolve it.                                             |
+| **Directory**  | A folder on your computer. In Git and the terminal, you'll navigate between directories to get to your project files.                                                                             |
 | **Git**        | A free, open-source version control system that tracks changes to your code over time, letting you save snapshots, revert mistakes, and collaborate with others.                                  |
 | **GitHub**     | A website that hosts Git repositories in the cloud. Widely used for sharing projects, building portfolios, and collaborating with other developers.                                               |
 | **Merge**      | Combines changes from one branch into another - like bringing a finished feature branch back into the main branch.                                                                                |
-| **Push**       | Uploads your local commits to a remote repository , so your work is backed up and visible to others.                                                                                              |
+| **Push**       | Uploads your local commits to a remote repository, so your work is backed up and visible to others.                                                                                               |
 | **Repository** | A folder tracked by Git that contains all your project files plus the entire history of every change ever made to them.                                                                           |
+| **Stage**      | Marks specific changes to be included in your next commit. Lets you choose exactly what gets saved rather than committing everything at once.                                                     |
 | **Terminal**   | A text-based interface (also called the command prompt) used instead of a Graphic User Interface (GUI). It's how developers run Git commands, navigate folders, and interact with their projects. |
 | **VS Code**    | A popular, free code editor made by Microsoft with built-in Git support and a huge library of extensions.                                                                                         |

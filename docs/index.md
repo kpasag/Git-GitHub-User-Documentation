@@ -26,13 +26,15 @@ To follow these instructions, you will need:
 - A computer with **Windows 11** operating system
 - A [**GitHub account**](https://github.com/join)
 - Ability to open the [**VS Code terminal**](https://code.visualstudio.com/docs/terminal/basics) and type commands such as `cd` to navigate between folders
+- An active internet connection
 
 ## Software Requirements
 
 Before proceeding, ensure you have the following installed:
 
-- [**Git**](https://git-scm.com/downloads) version 2.51 or later
+- [**Git**](https://git-scm.com/downloads) version 2.51 or later, configured with your name and email
 - [**Visual Studio Code**](https://code.visualstudio.com/download) version 1.112 or later
+- A modern web browser such as Chrome version 145 or later, Firefox version 148 or later, or Edge version 146 or later
 
 > Although the screenshots provided will be from VS Code, most of the instructions can be followed using any terminal application.
 > Alternatives such as [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701), [Git Bash](https://gitforwindows.org/), and [PowerShell](https://learn.microsoft.com/en-us/powershell/) are also viable options.

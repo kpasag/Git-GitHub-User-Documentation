@@ -2,9 +2,7 @@
 
 ## Overview
 
-Merge conflicts happen when two branches modify the **same lines** in the same file. Git does not know which version to keep, so it asks you to resolve the conflict manually. This is completely normal and happens regularly in team projects.
-
-While merge conflicts can seem intimidating at first, they are straightforward to fix once you understand the process.
+Merge conflicts typically happen when two committed changes are competing for the same line in the same file. Resulting in Git not knowing which one to choose, so it asks you to resolve it. This is completely normal and occasionally happens in team projects.
 
 By the end of this task, you will be able to:
 

@@ -2,8 +2,6 @@
 
 ## Overview
 
-So far, you have been working directly on the **main** branch. This works fine for solo projects, but in real-world development, you will want to work on new features or fixes without risking the stability of your main codebase. This is where **branches** come in.
-
 A branch is an independent line of development. You can create a branch, make changes on it, and then **merge** it back into `main` when your work is complete and tested.
 
 By the end of this task, you will be able to:

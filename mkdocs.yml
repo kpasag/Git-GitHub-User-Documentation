@@ -74,3 +74,6 @@ extra:
       
 
 copyright: Copyright &copy; 2026 Kyle Pasag and Cedrik Melendez
+
+extra_css:
+  - stylesheets/extra.css

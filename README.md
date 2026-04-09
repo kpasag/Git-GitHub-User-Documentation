@@ -55,9 +55,7 @@ We also added images and GIFs to help provide a more clearer step-by-step instru
 
 <!-- ![GIF of the GitHub Code button with the HTTPS URL highlighted](docs/assets/CopyingURL_of_REPO.gif "GitHub Code button showing HTTPS clone URL") -->
 
-### Admonitions
-
-We used MkDocs Material admonitions to highlight important information:
+Additionally, we used MkDocs Material admonitions to highlight important information:
 
 ![Admonitions used in the guide](docs/assets/admonitions.png)
 

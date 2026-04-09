@@ -17,7 +17,7 @@ By the end of this task, you will be able to:
 
 Before committing, it is good practice to see what has changed in your project.
 
-1. **Open** the terminal in VS Code (`` Ctrl + ` ``).
+1. **Open** the terminal in VS Code (++ctrl+grave++).
 2. **Run** the following command:
 
     ```bash

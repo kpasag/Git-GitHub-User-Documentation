@@ -40,7 +40,7 @@ Before cloning, you need to get the URL of the repository from GitHub.
 Now that you have the repository URL copied, open VS Code and navigate to the folder where you want to store the project.
 
 1. **Open** Visual Studio Code.
-2. **Open** the integrated terminal by pressing `` Ctrl + ` `` or navigating to **Terminal > New Terminal** in the menu bar.
+2. **Open** the integrated terminal by pressing ++ctrl+grave++ or navigating to **Terminal > New Terminal** in the menu bar.
 3. **Navigate** to the folder where you want to store the cloned project using the `cd` command.
 
 ![GIF of Opening VS Code terminal](assets/OpeningVSCodeTerminal.gif "Opening VS Code Terminal"){: alt="Opening VS Code Terminal" style="display: block; margin: 0 auto; width:700px" }

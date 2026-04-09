@@ -201,7 +201,6 @@ As a final check, confirm your changes appear on GitHub.
 
 ![Screenshot of GitHub showing the latest commit on the repository page](assets/task2-github-verify.png "GitHub repository page showing the latest commit"){: alt="GitHub repository page with the latest commit message visible at the top of the file list"}
 
-*Figure 1: The latest commit visible on GitHub.*
 
 !!! success "Success"
     If you can see your commit message and changes on GitHub, you have successfully committed and pushed your work!

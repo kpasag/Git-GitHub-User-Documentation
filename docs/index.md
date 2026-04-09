@@ -44,7 +44,7 @@ Before proceeding, ensure you have the following installed:
 
 This guide uses the following formatting conventions throughout:
 
-1. Commands, file names, branch names, and terminal output are displayed in `inline code` formatting:
+1. Commands, file names, and branch names are displayed in `inline code` formatting:
 
     Use `git add .` to stage all changes, then check the file `index.html` on the `main` branch.
 

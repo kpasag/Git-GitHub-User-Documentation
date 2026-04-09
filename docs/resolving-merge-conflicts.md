@@ -44,10 +44,10 @@ To practice resolving a conflict, we will intentionally create one.
     <h1>Welcome to My Website</h1>
     ```
 
-3. **Save** the file by pressing `Ctrl + S`.
+3. **Save** the file by pressing ++ctrl+s++.
 
 !!! info "Enabling Auto Save"
-    You can enable auto save in VS Code by going to **File > Auto Save**. This will automatically save your files whenever you make changes, so you do not need to press `Ctrl + S` each time.
+    You can enable auto save in VS Code by going to **File > Auto Save**. This will automatically save your files whenever you make changes, so you do not need to press ++ctrl+s++ each time.
     ![GIF of Enabling Auto Save](assets/EnableAutoSave.gif "Enabling Auto Save"){: alt="Enabling Auto Save" style="display: block; margin: 0 auto; width:500px" }
 
 4. **Stage** and **commit** the change:
@@ -80,7 +80,7 @@ To practice resolving a conflict, we will intentionally create one.
     <h1>Welcome to Our Amazing Website</h1>
     ```
 
-4. **Save** the file by pressing `Ctrl + S`.
+4. **Save** the file by pressing ++ctrl+s++.
 
 5. **Stage** and **commit** the change:
 
@@ -153,14 +153,14 @@ You have three options for resolving the conflict:
 ### Option A: Accept One Version
 
 1. **Click** **Accept Current Change** or **Accept Incoming Change** in VS Code to keep one version and discard the other.
-2. **Save** the file by pressing `Ctrl + S`.
+2. **Save** the file by pressing ++ctrl+s++.
 
 ![GIF of Accepting Current Change and Accepting Incoming Change](assets/AcceptingChanges.gif "Accept Current Change/Accept Incoming Change"){: alt="Accept Current Change/Accept Incoming Change" style="display: block; margin: 0 auto; width:700px" }
 
 ### Option B: Accept Both
 
 1. **Click** **Accept Both Changes** to keep both lines. This is useful when both changes are needed.
-2. **Save** the file by pressing `Ctrl + S`.
+2. **Save** the file by pressing ++ctrl+s++.
 
 ![GIF of Accepting Both Changes](assets/AcceptingBothChanges.gif "Accepting Both Changes"){: alt="Accepting Both Changes" style="display: block; margin: 0 auto; width:700px" }
 
@@ -173,7 +173,7 @@ You have three options for resolving the conflict:
     <h1>Welcome to Our Amazing Website</h1>
     ```
 
-3. **Save** the file by pressing `Ctrl + S`.
+3. **Save** the file by pressing ++ctrl+s++.
 
 ![Screenshot of resolved conflict in VS Code](assets/resolved-conflict.png "Resolved merge conflict in VS Code"){: alt="VS Code editor showing the file after the conflict has been resolved with conflict markers removed and final content in place" style="display: block; margin: 0 auto; width:600px"}
 
@@ -186,7 +186,7 @@ You have three options for resolving the conflict:
 
 After resolving the conflict, you need to tell Git that the conflict is fixed.
 
-1. **Save** the file by pressing `Ctrl + S`.
+1. **Save** the file by pressing ++ctrl+s++.
 2. **Stage** the resolved file:
 
     ```bash

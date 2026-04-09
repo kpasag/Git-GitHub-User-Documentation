@@ -52,7 +52,11 @@ This guide uses the following formatting conventions throughout:
 
     **Click** the green **<> Code** button, then select **HTTPS**.
 
-3. Multi-line commands and terminal output are shown in fenced code blocks with syntax highlighting:
+3. Keyboard key presses will be shown like:
+
+    ++ctrl+s++
+
+4. Multi-line commands and terminal output are shown in fenced code blocks with syntax highlighting:
 
     ```bash
     git add .
@@ -60,7 +64,7 @@ This guide uses the following formatting conventions throughout:
     git push
     ```
 
-4. Instructions that require you to run a command in the terminal will be formatted like:
+5. Instructions that require you to run a command in the terminal will be formatted like:
 
     ```
     run some command in the terminal
